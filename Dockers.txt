@@ -1,0 +1,30 @@
+docket images 
+docker ps
+hub.docker.com --- repository 
+docker pull <image name>
+docker images
+
+docker run -ti<d> --name=<InstanceName> <imageName> /bin/bash
+<d> ditached mode
+ctrl+shft+PQ --- to exit
+
+docker inspect <InstancName>/anycomponent
+docker attach <InstanceName>
+docker logs <InstanceName>
+docker run -tid --name=webserver -p 80:80 ubuntu /bin/bash
+docker attach webserver
+apt-get update
+apt-get install apache2
+dpkg -l <packageName>
+dpkg -l apache2
+apt-get install curl
+curl localhost 80
+docker inspect webserver 
+--IP address
+copy ipaddress
+Browser-->Ip:port
+netstat -natpl
+cat>/var/www/html/index.html
+curl localhost 80
+
+
